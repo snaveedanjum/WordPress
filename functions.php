@@ -13,16 +13,16 @@ defined( 'ABSPATH' ) || exit;
 
 // Adding fuctions.
 $wpentrant_functions = array(
-	'/admin.php',					// make changes to dashboard
-	'/cleanup.php',					// Clean site header
+	'/admin.php',				// make changes to dashboard
+	'/cleanup.php',				// Clean site header
 	'/disable-emoji.php',			// Disable emojies
-	'/enqueue.php',					// Enqueue scripts and styles.
-	'/login.php',					// Customazing wordpress login page.
-	'/menu.php',					// Adding menus.
-	'/og-tags.php',				    // Adding og Tags.
-	'/pagination.php',				// Adding pagination.
-	'/shortcode.php',				// Shortcodes.
-	'/sidebar.php',					// Adding sidebar.
+	'/enqueue.php',				// Enqueue scripts and styles.
+	'/login.php',				// Customazing wordpress login page.
+	'/menu.php',				// Adding menus.
+	'/og-tags.php',				// Adding og Tags.
+	'/pagination.php',			// Adding pagination.
+	'/shortcode.php',			// Shortcodes.
+	'/sidebar.php',				// Adding sidebar.
 	'/theme-support.php',			// Custom theme functions.
 
 );
@@ -39,7 +39,7 @@ foreach ( $wpentrant_functions as $function ) {
 $wpentrant_includes = array(
 	'/wp-navwalker.php',			// Nav menu walker
 	'/theme-options.php',			// Theme options
-	'/post-types.php',				// Theme Custom post types
+	'/post-types.php',			// Theme Custom post types
 
 );
 

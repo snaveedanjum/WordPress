@@ -1,0 +1,48 @@
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    width: 180px !important;
+}
+#wpcontent, #wpfooter {
+    margin-left: 180px;
+}
+#adminmenu .wp-submenu {
+    left: 180px;
+}
+
+.wpentrant .admin-box {
+    background-color: #fff;
+    width: 800px;
+    margin-top: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.wpentrant .admin-box-inner {
+    padding: 10px 20px; 
+}
+.wpentrant .header-box {
+    background-color:#007cba;
+    padding: 15px;
+    color: #fff;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.wpentrant .form-table th {
+    padding: 10px;
+    width: 100px;
+    vertical-align: middle;
+}
+.wpentrant .form-table td {
+    padding: 10px;
+}
+.wpentrant .form-table td input {
+    width: 100%;
+}
+.wpentrant .form-table td textarea {
+    width: 100%;
+}
+
+.campaigns a {
+    text-decoration: none;
+    font-size: 16px;
+}
